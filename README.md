@@ -38,14 +38,7 @@ A interface visual foi construída para permitir uma fácil interpretação gere
 * **Gráfico de Linhas (Casos Clínicos por Mês):** Exibe a evolução temporal de criação de casos entre os meses de janeiro e maio, demonstrando um pico acentuado de cadastros em maio.
 * **Gráfico de Pizza (Casos Clínicos por Status):** Proporção exata do fluxo de aprovação dos casos: Aprovado (46,15%), Pendente (28,21%) e em Revisão (25,64%).
 
----
 
-## ✅ Conclusão e Requisitos Atendidos
-O projeto cumpre com excelência todos os critérios de avaliação propostos:
-1. **Estrutura:** 3 tabelas relacionadas criadas.
-2. **SQL Avançado:** Presença de 8 consultas analíticas distintas com filtros, junções (LEFT JOIN) e agregações.
-3. **Indicadores:** 4 KPIs implementados de forma clara.
-4. **Visualização:** Uso de 4 tipos de gráficos diferentes, organizados em um layout limpo e focado na experiência do usuário (UX/UI), simulando perfeitamente a visão de um coordenador pedagógico.
 
 ---
 
