@@ -22,3 +22,33 @@ A modelagem atende à exigência de tabelas relacionadas, sendo composta por 3 t
 
 ## 📈 2. Indicadores (KPIs) e Consultas SQL
 O script SQL contém consultas avançadas que atendem aos requisitos (uso de `WHERE`, `COUNT`, `AVG`, `GROUP BY` e `ORDER BY`). Estes dados alimentaram os **4 KPIs principais** apresentados no topo do dashboard:
+
+1. **Total de Casos Clínicos (39):** Contagem absoluta de registros na base.
+2. **Casos Clínicos Pendentes (11):** Uso de `WHERE` para filtrar casos aguardando revisão.
+3. **Turmas Ativas (7):** Filtro de status para identificar turmas com semestre em andamento.
+4. **Média de Casos por Turma (4,88):** Subconsulta utilizando `AVG` e `COUNT` para medir a média de exercícios aplicados por turma.
+
+---
+
+## 🖥️ 3. Visualização de Dados (Dashboard)
+A interface visual foi construída para permitir uma fácil interpretação gerencial por parte da coordenação do curso. Foram desenvolvidos 4 tipos diferentes de gráficos, cumprindo os requisitos da atividade:
+
+* **Gráfico de Barras Horizontais (Casos Clínicos por Turma):** Mostra o volume de casos aplicados em cada disciplina, evidenciando que "Medicina A" possui a maior quantidade de casos.
+* **Gráfico de Colunas (Casos Clínicos por Dificuldade):** Distribuição dos casos criados segmentados por dificuldade (Alta, Média, Baixa), com predominância de casos de "Alta" dificuldade.
+* **Gráfico de Linhas (Casos Clínicos por Mês):** Exibe a evolução temporal de criação de casos entre os meses de janeiro e maio, demonstrando um pico acentuado de cadastros em maio.
+* **Gráfico de Pizza (Casos Clínicos por Status):** Proporção exata do fluxo de aprovação dos casos: Aprovado (46,15%), Pendente (28,21%) e em Revisão (25,64%).
+
+---
+
+## ✅ Conclusão e Requisitos Atendidos
+O projeto cumpre com excelência todos os critérios de avaliação propostos:
+1. **Estrutura:** 3 tabelas relacionadas criadas.
+2. **SQL Avançado:** Presença de 8 consultas analíticas distintas com filtros, junções (LEFT JOIN) e agregações.
+3. **Indicadores:** 4 KPIs implementados de forma clara.
+4. **Visualização:** Uso de 4 tipos de gráficos diferentes, organizados em um layout limpo e focado na experiência do usuário (UX/UI), simulando perfeitamente a visão de um coordenador pedagógico.
+
+---
+
+## 👨‍🎓 Integrantes
+* Emanuel Cândido da Silva Lima
+* João Pedro Melo Xavier
